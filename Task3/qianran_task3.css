@@ -1,0 +1,142 @@
+/* QianranW Strikingly task 3 */
+
+#profile {
+    height: 480px;
+    width: 370px;
+    background-color: #FAFAD2;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 5%;
+}
+
+#top {
+    height: 27%;
+    background-color: #FAFAD2;
+    border-radius: 10px;
+}
+
+#middle{
+    height: 60%;
+    /* border-radius: 10px; */
+    margin:auto;
+    background-color: rgb(58,65,78);
+    border-left: 1.5px rgb(40,40,40) solid;
+    border-right: 1.5px rgb(40,40,40) solid;
+}
+
+#bottom{
+    height: 15%;
+    background-color: rgb(58,65,78);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0 12px 9px 0 rgba(49, 50, 50, 1);
+    -moz-box-shadow: 0 12px 9px 0 rgba(49, 50, 50, 1);
+    box-shadow: 0 12px 9px 0 rgba(49, 50, 50, 1);
+}
+
+.dots{
+  position: relative;
+  margin-top: -158px;
+  left: 45%;
+  line-height: 48%;
+  font-weight: 600;
+  color: #FEFFEF;
+  text-shadow: 0px 2px 0px #DCDCDC, 0px 2px 0px #DCDCDC;
+}
+
+
+#pic{
+    width:165px;
+    height:165px;
+    border-radius: 100%;
+    overflow:hidden;
+    position: relative;
+    top:60px;
+    margin:auto;
+    border-bottom: solid 6px #FAFAD2;
+    border-left: solid 6px #FAFAD2;
+    border-right: solid 6px #FAFAD2;
+}
+
+#pic img {
+    position: relative;
+    left: -50px;
+}
+
+#person {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    top: 125px;
+    color: #FAFAD2;
+    font-family: 'Dancing Script', cursive;
+    line-height: 70%;
+}
+
+#job {
+    color: rgb(100,100,100);
+    font-weight: 100;
+}
+
+#btnFl {
+    height:40px;
+    width:170px;
+    background-color: rgb(700,85,0);
+    border-radius: 4px;
+    position: relative;
+    margin: auto;
+    top:160px;
+    border: 1px rgb(40,40,40) solid;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+#btnTxt {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    top: -7.5px;
+    color: #FAFAD2;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 100;
+}
+
+#left {
+    height: 100%;
+    width: 49.3%;
+    background-color: rgb(58,65,78);
+    border: 1.5px rgb(40,40,40) solid;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    border-bottom-left-radius: 10px;
+    float:left
+}
+
+#right {
+    height: 100%;
+    width: 49.3%;
+    background-color: rgb(58,65,78);
+    border-top: 1.5px rgb(40,40,40) solid;
+    border-right: 1.5px rgb(40,40,40) solid;
+    border-bottom: 1.5px rgb(40,40,40) solid;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    border-collapse: collapse;
+    border-bottom-right-radius: 10px;
+    float:right;
+}
+
+#n1,#n2{
+    position:relative;
+    top:10px;
+    left: 15px;
+    color: rgb(40,40,40);
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 150;
+}
+
+#flw, #flg{
+    text-transform: uppercase;
+    margin-left: 58px;
+    margin-top:-29px;
+    color: rgb(100,100,100);
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 100;
+}
